@@ -26,6 +26,11 @@
 - **Python** ≥ 3.13（后端使用 `uv` 管理依赖，已附带 `uv.lock`）
 - **Node.js** ≥ 22（前端）
 - **uv**：<https://docs.astral.sh/uv/>
+  安装命令（装完请重开终端让 PATH 生效，用 `uv --version` 验证）：
+
+  ```bash
+  pip install uv
+  ```
 
 ### 必需依赖服务（必须，至少各一个实例）
 后端运行时强依赖以下三个服务，缺一不可：
